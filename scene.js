@@ -209,26 +209,55 @@ speedTimerOptions.querySelectorAll("li").forEach(value=>{
 
 
 
-playButtons.forEach(button => {
-    button.addEventListener('click',(e) => {
-        const videoContainerBody = document.querySelector('.video-container-body');
-        const video = videoContainerBody.querySelector('video');
-        const videoSrc = videoContainerBody.querySelector('video source');
+// playButtons.forEach(button => {
+//     button.addEventListener('click',(e) => {
+//         const videoContainerBody = document.querySelector('.video-container-body');
+//         const video = videoContainerBody.querySelector('video');
+//         const videoSrc = videoContainerBody.querySelector('video source');
        
-           const targetButton = e.target.closest('.play');
-           console.log(targetButton.dataset.viewname);
-           videoSrc.src=`./videos/${targetButton.dataset.viewname}.mp4`
-        video.load();
-        videoContainerBody.style.display = 'flex';
-        video.play().catch(err=>{
-             console.log(err);
+//            const targetButton = e.target.closest('.play');
+//            console.log(targetButton.dataset.viewname);
+//            videoSrc.src=`./videos/${targetButton.dataset.viewname}.mp4`
+//         video.load();
+//         videoContainerBody.style.display = 'flex';
+//         video.play().catch(err=>{
+//              console.log(err);
              
-        });
+//         });
 
       
       
+//     });
+// });
+playButtons.forEach(button => {
+    button.addEventListener('click', async (e) => {
+        try {
+            const videoContainerBody = document.querySelector('.video-container-body');
+            const video = videoContainerBody.querySelector('video');
+            const videoSrc = videoContainerBody.querySelector('video source');
+       
+            const targetButton = e.target.closest('.play');
+            console.log(targetButton.dataset.viewname);
+
+            // Set the video source dynamically
+            videoSrc.src = `./videos/${targetButton.dataset.viewname}.mp4`;
+            
+            // Load the video
+            video.load();
+
+            // Display the video container
+            videoContainerBody.style.display = 'flex';
+
+            // Play the video (await is used to ensure that any potential promise rejection is handled)
+            await video.play();
+            
+        } catch (err) {
+            // Handle any error that might occur during video playback
+            console.error('Error playing the video:', err);
+        }
     });
 });
+
 
 closeVideoButton.addEventListener('click', () => {
     const videoContainerBody = document.querySelector('.video-container-body');
