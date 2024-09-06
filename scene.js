@@ -5,42 +5,42 @@ const sceneData = [
         description: "As the sun dips below the horizon, painting the sky with hues of orange, pink, and purple, the tranquil waters of the lake gently ripple with the breeze. The soft rustling of leaves in the trees, the distant call of a loon, and the rhythmic lapping of water against the shore create a symphony of nature's finest sounds. This ASMR experience transports you to the edge of a peaceful lake, where the day's warmth fades into the cool embrace of twilight. Close your eyes and let the serene ambiance wash over you, easing your mind and body into a state of deep relaxation.",
         imageUrl: "images/m-morning.jpg",
         altText: "morning.jpeg",
-        viewName: "sunset-video"
+        viewName: "https://firebasestorage.googleapis.com/v0/b/drive-clone-6f3ee.appspot.com/o/files%2Fsunset-video.mp4?alt=media&token=99358e2b-9429-4fb7-a3a4-9b8644a4e42b"
     },
     {
         title: "Scenic Waterfall",
         description: "As you approach the cascading waterfall, the gentle roar of the water fills your ears, and the misty breeze cools your face. The crystal-clear water flows effortlessly over the rocky ledges, creating a mesmerizing display of nature's power and beauty. Surrounding the waterfall, lush greenery thrives, with the soft rustling of leaves and the occasional chirp of birds harmonizing with the water's rhythmic flow. This ASMR experience invites you to immerse yourself in the tranquil ambiance, where the stresses of daily life wash away, leaving you refreshed and at peace with the serene wilderness.",
         imageUrl: "images/waterfall.jpeg",
         altText: "waterfall.jpg",
-        viewName: "waterfall"
+        viewName: "https://firebasestorage.googleapis.com/v0/b/drive-clone-6f3ee.appspot.com/o/files%2Fwaterfall.mp4?alt=media&token=2908ffb9-e7d9-4fb0-8f0a-4ddbc2326012"
     },
     {
         title: "Scenic Forest",
         description: "Step into the heart of a serene forest, where the towering trees stretch towards the sky, their leaves whispering in the gentle breeze. The forest floor is blanketed with soft moss and fallen leaves, muffling your footsteps as you walk deeper into nature’s embrace. Birds sing melodious tunes from the treetops, while the distant sound of a babbling brook adds to the calming symphony of the woods. Rays of sunlight filter through the canopy, creating a dance of light and shadow that soothes the mind and spirit.",
         imageUrl: "images/forest.jpg",
         altText: "forest.jpg",
-        viewName: "forest"
+        viewName: "https://firebasestorage.googleapis.com/v0/b/drive-clone-6f3ee.appspot.com/o/files%2Fforest.mp4?alt=media&token=59747373-ffdc-4c7a-84e6-ec23e05d3e48"
     },
     {
         title: "Snow Mountain",
         description: "Imagine yourself in a tranquil winter wonderland, where the ground is covered in a soft blanket of pristine snow. The air is crisp, and each breath you take fills your lungs with the refreshing coolness of the season. The world around you is hushed, with only the gentle crunch of snow underfoot and the occasional rustling of snow-laden branches breaking the silence. As delicate snowflakes drift down from the sky, they land softly, creating a serene and peaceful atmosphere. This ASMR experience transports you to a snowy landscape, where the calm and stillness of winter bring a deep.",
         imageUrl: "images/snow.jpg",
         altText: "snow.jpg",
-        viewName: "snow"
+        viewName: "https://firebasestorage.googleapis.com/v0/b/drive-clone-6f3ee.appspot.com/o/files%2Fsnow.mp4?alt=media&token=83be63a2-6415-48d0-aa32-1047d73d8334"
     },
     {
         title: "Sound Therapy",
         description: "Immerse yourself in the healing world of sound therapy, where soothing tones and vibrations resonate through your entire being. This ASMR experience envelops you in a symphony of therapeutic sounds—from the deep, grounding hum of Tibetan singing bowls to the gentle chimes of wind bells. Each sound is carefully chosen to balance your energy, calm your mind, and release tension from your body. Close your eyes and let the harmonious frequencies wash over you, guiding you into a state of deep relaxation and inner peace. This is a journey into the power of sound, where each note is a step closer to tranquility.",
         imageUrl: "images/meditation.jpg",
         altText: "meditation.jpg",
-        viewName: "meditation"
+        viewName: "https://firebasestorage.googleapis.com/v0/b/drive-clone-6f3ee.appspot.com/o/files%2Fmeditation.mp4?alt=media&token=e7e0af04-34ad-4fcc-82d3-ef4df2e6a099"
     },
     {
         title: "Rain",
         description: "Immerse yourself in the healing world of sound therapy, where soothing tones and vibrations resonate through your entire being. This ASMR experience envelops you in a symphony of therapeutic sounds—from the deep, grounding hum of Tibetan singing bowls to the gentle chimes of wind bells. Each sound is carefully chosen to balance your energy, calm your mind, and release tension from your body. Close your eyes and let the harmonious frequencies wash over you, guiding you into a state of deep relaxation and inner peace. This is a journey into the power of sound, where each note is a step closer to tranquility.",
         imageUrl: "images/rain.jpeg",
         altText: "rain.jpeg",
-        viewName: "rain"
+        viewName: "https://firebasestorage.googleapis.com/v0/b/drive-clone-6f3ee.appspot.com/o/files%2Fforest.mp4?alt=media&token=59747373-ffdc-4c7a-84e6-ec23e05d3e48"
     }
 ];
 const sceneList = document.querySelector('.scene-list');
@@ -240,7 +240,7 @@ playButtons.forEach(button => {
             console.log(targetButton.dataset.viewname);
 
             // Set the video source dynamically
-            videoSrc.src = "https://firebasestorage.googleapis.com/v0/b/drive-clone-6f3ee.appspot.com/o/files%2Fforest.mp4?alt=media&token=59747373-ffdc-4c7a-84e6-ec23e05d3e48";
+            videoSrc.src = `${targetButton.dataset.viewname}`;
             
             // Load the video
             video.load();
