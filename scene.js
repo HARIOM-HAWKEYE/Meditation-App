@@ -240,7 +240,7 @@ playButtons.forEach(button => {
             console.log(targetButton.dataset.viewname);
 
             // Set the video source dynamically
-            videoSrc.src = `forest.mp4`;
+            videoSrc.src = "https://firebasestorage.googleapis.com/v0/b/drive-clone-6f3ee.appspot.com/o/files%2Fforest.mp4?alt=media&token=59747373-ffdc-4c7a-84e6-ec23e05d3e48";
             
             // Load the video
             video.load();
