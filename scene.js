@@ -215,12 +215,12 @@ playButtons.forEach(button => {
         const video = videoContainerBody.querySelector('video');
            const targetButton = e.target.closest('.play');
            console.log(targetButton.dataset.viewname);
-           mainVideo.src=`videos/${targetButton.dataset.viewname}.mp4`
-        // Show the video container body
+           mainVideo.src=`./videos/${targetButton.dataset.viewname}.mp4`
+       
         videoContainerBody.style.display = 'flex';
-        video.play(); // Start playing the video
+        video.play(); 
 
-        // Event listener to pause the video and hide the container when clicking outside
+       
       
     });
 });
