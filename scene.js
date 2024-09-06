@@ -216,9 +216,12 @@ playButtons.forEach(button => {
            const targetButton = e.target.closest('.play');
            console.log(targetButton.dataset.viewname);
            mainVideo.src=`./videos/${targetButton.dataset.viewname}.mp4`
-  
+        video.load()
         videoContainerBody.style.display = 'flex';
-        video.play();
+        video.play().catch(err=>{
+             console.log(err);
+             
+        });
 
       
       
