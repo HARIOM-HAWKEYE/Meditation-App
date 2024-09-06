@@ -27,12 +27,12 @@ BeatBoost is a meditation app designed to help users relax, meditate, and stay h
    git clone https://github.com/HARIOM-HAWKEYE/Meditation-App
 
 
-##Usage
+## Usage
 Open the website and start exploring the available features.
 Use the voice assistant for hands-free meditation assistance.
 Play meditation music and relaxation videos.
 Follow the guided exercises to stay calm and healthy.
-Screenshots
+## Screenshots
 ![BeatBoost Home](https://github.com/HARIOM-HAWKEYE/Meditation-App/blob/main/SceernShot/Home.png)
 ![BeatBoost Music](https://github.com/HARIOM-HAWKEYE/Meditation-App/blob/main/SceernShot/Music.png)
 ![BeatBoost MusicPlaying](https://github.com/HARIOM-HAWKEYE/Meditation-App/blob/main/SceernShot/Music_Player.png)
