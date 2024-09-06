@@ -37,7 +37,7 @@ Use the voice assistant for hands-free meditation assistance.
 Play meditation music and relaxation videos.
 Follow the guided exercises to stay calm and healthy.
 Screenshots
-![BeatBoost Home](./Sceernshot/Home.png)
+![BeatBoost Home](https://github.com/HARIOM-HAWKEYE/Meditation-App/blob/main/SceernShot/Home.png)
 
 ## Roadmap
  Add user login and profile tracking for meditation progress.
