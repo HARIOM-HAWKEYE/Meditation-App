@@ -1,35 +1,31 @@
-##BeatBoost
+# BeatBoost
+
 BeatBoost is a meditation app designed to help users relax, meditate, and stay healthy through guided exercises, meditation music, and videos. It features a voice assistant for hands-free guidance and provides a fully responsive experience across devices.
 
-##Features
-Voice Assistant: Hands-free guidance to assist users during meditation and relaxation.
-Meditation Music: A collection of soothing music tracks to enhance the meditation experience.
-Relaxation Videos: Specially curated videos to help users unwind and relax.
-Exercise Guides: Simple exercises to improve mental and physical well-being.
-Fully Responsive: Optimized for all screen sizes, ensuring a seamless experience on both mobile and desktop.
+## Features
+- **Voice Assistant**: Hands-free guidance to assist users during meditation and relaxation.
+- **Meditation Music**: A collection of soothing music tracks to enhance the meditation experience.
+- **Relaxation Videos**: Specially curated videos to help users unwind and relax.
+- **Exercise Guides**: Simple exercises to improve mental and physical well-being.
+- **Fully Responsive**: Optimized for all screen sizes, ensuring a seamless experience on both mobile and desktop.
 
+## Technologies Used
+- **HTML**: For the structure of the web pages.
+- **CSS**: To style and make the website visually appealing.
+- **JavaScript**: For interactivity, including the voice assistant and dynamic features.
 
-##Technologies Used
-HTML: For the structure of the web pages.
-CSS: To style and make the website visually appealing.
-JavaScript: For interactivity, including the voice assistant and dynamic features.
+## Getting Started
 
-##Getting Started
-Prerequisites
-A modern web browser (Chrome, Firefox, Safari, etc.)
-Installation
-Clone the repository:
-bash
-Copy code
-git clone https://github.com/HARIOM-HAWKEYE/Meditation-App
-Navigate to the project directory:
-bash
-Copy code
-cd beatboost
-Open index.html in your browser:
-bash
-Copy code
-open index.html
+### Prerequisites
+- A modern web browser (Chrome, Firefox, Safari, etc.)
+
+### Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/HARIOM-HAWKEYE/Meditation-App
+
 
 ##Usage
 Open the website and start exploring the available features.
