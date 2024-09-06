@@ -48,10 +48,10 @@ Follow the guided exercises to stay calm and healthy.
 Contributing
 Feel free to fork the project, make your changes, and create a pull request. All contributions are welcome!
 
-License
-This project is licensed under the MIT License. See the LICENSE file for details.
+### License
+- This project is licensed under the MIT License. See the LICENSE file for details.
 
-Contact
-Hariom Singh
-Email: algorithmacehariom09@gmail.com
-Project Link: https://github.com/HARIOM-HAWKEYE/Meditation-App
+### Contact
+- Hariom Singh
+- Email: algorithmacehariom09@gmail.com
+- Project Link: https://github.com/HARIOM-HAWKEYE/Meditation-App
