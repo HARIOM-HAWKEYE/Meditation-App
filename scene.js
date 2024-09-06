@@ -213,10 +213,12 @@ playButtons.forEach(button => {
     button.addEventListener('click',(e) => {
         const videoContainerBody = document.querySelector('.video-container-body');
         const video = videoContainerBody.querySelector('video');
+        const videoSrc = videoContainerBody.querySelector('video source');
+       
            const targetButton = e.target.closest('.play');
            console.log(targetButton.dataset.viewname);
-           mainVideo.src=`./videos/${targetButton.dataset.viewname}.mp4`
-        video.load()
+           videoSrc.src=`./videos/${targetButton.dataset.viewname}.mp4`
+        video.load();
         videoContainerBody.style.display = 'flex';
         video.play().catch(err=>{
              console.log(err);
