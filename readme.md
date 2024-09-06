@@ -43,7 +43,7 @@ Screenshots
 ![BeatBoost Scene](https://github.com/HARIOM-HAWKEYE/Meditation-App/blob/main/SceernShot/Scene-Display.png)
 ![BeatBoost VideoPlayer](https://github.com/HARIOM-HAWKEYE/Meditation-App/blob/main/SceernShot/Video_player.png)
 ![BeatBoost Relax & Breathe](https://github.com/HARIOM-HAWKEYE/Meditation-App/blob/main/SceernShot/Exercise.png)
-![BeatBoost Voice Assistant](https://github.com/HARIOM-HAWKEYE/Meditation-App/blob/main/SceernShot/VoiceAsis.png)
+![BeatBoost Voice Assistant](https://github.com/HARIOM-HAWKEYE/Meditation-App/blob/main/SceernShot/Voice%20Assistant.png)
 
 ## Roadmap
  Add user login and profile tracking for meditation progress.
