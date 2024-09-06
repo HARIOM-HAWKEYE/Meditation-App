@@ -240,7 +240,7 @@ playButtons.forEach(button => {
             console.log(targetButton.dataset.viewname);
 
             // Set the video source dynamically
-            videoSrc.src = `./videos/${targetButton.dataset.viewname}.mp4`;
+            videoSrc.src = `forest.mp4`;
             
             // Load the video
             video.load();
