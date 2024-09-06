@@ -38,6 +38,12 @@ Play meditation music and relaxation videos.
 Follow the guided exercises to stay calm and healthy.
 Screenshots
 ![BeatBoost Home](https://github.com/HARIOM-HAWKEYE/Meditation-App/blob/main/SceernShot/Home.png)
+![BeatBoost Music](https://github.com/HARIOM-HAWKEYE/Meditation-App/blob/main/SceernShot/Music.png)
+![BeatBoost MusicPlaying](https://github.com/HARIOM-HAWKEYE/Meditation-App/blob/main/SceernShot/Music_Player.png)
+![BeatBoost Scene](https://github.com/HARIOM-HAWKEYE/Meditation-App/blob/main/SceernShot/Scene-Display.png)
+![BeatBoost VideoPlayer](https://github.com/HARIOM-HAWKEYE/Meditation-App/blob/main/SceernShot/Video_player.png)
+![BeatBoost Relax & Breathe](https://github.com/HARIOM-HAWKEYE/Meditation-App/blob/main/SceernShot/Exercise.png)
+![BeatBoost Voice Assistant](https://github.com/HARIOM-HAWKEYE/Meditation-App/blob/main/SceernShot/VoiceAsis.png)
 
 ## Roadmap
  Add user login and profile tracking for meditation progress.
